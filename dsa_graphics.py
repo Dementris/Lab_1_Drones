@@ -91,4 +91,5 @@ def observer(new_grid, old_grid, iter_count):
     visited_count = (np_visit == V_VISITED).sum()
     visited_share = visited_count / (visited_count + unvisited_count)
     pygame.display.set_caption(f'CA-Based Drone Swarm Simulation: {visited_share * 100.0:.2f}% (iter. {iter_count})')
+    return visited_share
 

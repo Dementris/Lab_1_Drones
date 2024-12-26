@@ -32,7 +32,7 @@ V_UNREACHABLE = -1  # This cell is unreachable
 # Grid init parameters
 BITMAP_OBSTACLES = 'bitmap_obstacles_128.bmp'
 BITMAP_DRONES = 'bitmap_drones_128.bmp'
-CELL_TYPE = np.uint8    # Smaller integer type to require less RAM
+CELL_TYPE = np.int8    # Smaller integer type to require less RAM
 PAD = 2     # Padding just to make sure drones don't cause 'out of bounds' errors
 
 
